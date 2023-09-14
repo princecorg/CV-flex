@@ -1,0 +1,64 @@
+html {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+}
+
+section {
+  border: 2px solid grey;
+  border-radius: 15px;
+  min-width: 300px;
+  margin: 5px;
+  padding: 15px;
+}
+
+section ul {
+  text-indent: 75px;
+  list-style-position: inside;
+}
+
+p {
+  margin: 5px 0;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+img {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  border: 2px solid lightblue;
+  border-radius: 5px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* ----------------------- MEDIA QUERIES -------------------------- */
+
+@media screen and (max-width: 768px) {
+  img {
+    position: unset;
+    display: block;
+    margin: auto;
+  }
+}
